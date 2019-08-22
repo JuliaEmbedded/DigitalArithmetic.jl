@@ -6,12 +6,12 @@ makedocs(;
     pages=[
         "Home" => "index.md",
     ],
-    repo="https://github.com/imciner2/DigitalArithmetic.jl/blob/{commit}{path}#L{line}",
+    repo="https://github.com/juliaembedded/DigitalArithmetic.jl/blob/{commit}{path}#L{line}",
     sitename="DigitalArithmetic.jl",
     authors="Ian McInerney, Imperial College London",
     assets=String[],
 )
 
 deploydocs(;
-    repo="github.com/imciner2/DigitalArithmetic.jl",
+    repo="github.com/juliaembedded/DigitalArithmetic.jl",
 )
